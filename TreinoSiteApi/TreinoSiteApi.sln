@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinoApiView", "..\TreinoA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinoEntityFrameworkCore", "..\TreinoEntityFrameworkCore\TreinoEntityFrameworkCore.csproj", "{6C09B727-97C9-4624-BF45-82921B23F9A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entityFrameworkCore2.0", "..\entityFrameworkCore2.0\entityFrameworkCore2.0.csproj", "{8CE0FC3C-1803-4F25-97D8-FB5E1F19959B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "entityFrameworkCore2.0", "..\entityFrameworkCore2.0\entityFrameworkCore2.0.csproj", "{8CE0FC3C-1803-4F25-97D8-FB5E1F19959B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi", "..\FluentApi\FluentApi.csproj", "{5403B7EF-AEBE-4632-AF29-4E37209A04C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi", "..\FluentApi\FluentApi.csproj", "{5403B7EF-AEBE-4632-AF29-4E37209A04C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind", "..\NorthWind\NorthWind.csproj", "{A438B053-660A-4B00-8A3F-B1BDD3CFA383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5403B7EF-AEBE-4632-AF29-4E37209A04C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5403B7EF-AEBE-4632-AF29-4E37209A04C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5403B7EF-AEBE-4632-AF29-4E37209A04C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A438B053-660A-4B00-8A3F-B1BDD3CFA383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A438B053-660A-4B00-8A3F-B1BDD3CFA383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A438B053-660A-4B00-8A3F-B1BDD3CFA383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A438B053-660A-4B00-8A3F-B1BDD3CFA383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

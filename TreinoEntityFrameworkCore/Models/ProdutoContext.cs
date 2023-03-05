@@ -3,19 +3,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TreinoEntityFrameworkCore.Models.Interface;
 
 namespace TreinoEntityFrameworkCore.Models
 {
-    public class ProdutoContexto : DbContext
+    public class ProdutoContext : DbContext, IDbContext
     {
 
-        public ProdutoContexto(DbContextOptions<ProdutoContexto> options) : base(options)
+        public ProdutoContext(DbContextOptions<ProdutoContext> options) : base(options)
         {
 
 
         }
 
+
         public DbSet<Produto> Produtos { get; set; }
+
+
+
 
     }
 }

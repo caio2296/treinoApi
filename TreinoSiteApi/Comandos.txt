@@ -1,0 +1,9 @@
+add-migration NomeDaMigração
+
+//database first
+// northwind
+
+dotnet tool install --global dotnet-ef
+cd .\NorthWind
+
+dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NorthWind;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -o C:\Users\CAIO\OneDrive\Documentos\GitHub\TreinoApi\treinoApi\NorthWind\Models -c AppDbContext

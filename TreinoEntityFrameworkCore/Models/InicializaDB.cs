@@ -8,7 +8,7 @@ namespace TreinoEntityFrameworkCore.Models
     public class InicializaDB
     {
 
-        public static void Inicializa(ProdutoContexto contexto)
+        public static void Inicializa(ProdutoContext contexto)
         {
             contexto.Database.EnsureCreated();
 
